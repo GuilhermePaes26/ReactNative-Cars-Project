@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, TouchableOpacity , ImageBackground, Image } from 'react-native';
 import backgroundImage from '../assets/charger.jpg';
 
-export default function App() {
+export default function Charger() {
   return (
     <ImageBackground source={backgroundImage} style={styles.background}>
     <View style={styles.container}>
